@@ -30,7 +30,7 @@ ingress:
   tls:
     - hosts:
         - "admin.cmsnesia.com"
-      secretName: cmsnesia-tls
+      secretName: cmsnesia-admin-tls
   hosts:
     - host: "admin.cmsnesia.com"
       paths:
